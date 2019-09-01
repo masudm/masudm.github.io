@@ -30,12 +30,30 @@
 			.typed-cursor {
 				font-size:11vw;
 			}
+
+			.email {
+				color: #42f471;
+				opacity: 1;
+				-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+				-moz-animation: fadein 2s; /* Firefox < 16 */
+					-ms-animation: fadein 2s; /* Internet Explorer */
+					-o-animation: fadein 2s; /* Opera < 12.1 */
+						animation: fadein 2s;
+			}
+
+			@keyframes fadein {
+				0%{opacity:0}
+				20%{opacity:0}
+				100%{opacity:1}
+			}
+
 		</style>
 	</head>
 	<body>
 		<div class='app'>
 			<div class="container">
 				<h1 class="typed"></h1>
+				<h3 class="email">masudm@hotmail.com</h3>
 			</div>
 		</div>
 		
